@@ -17,8 +17,11 @@
     "start": "npm run build -- --define:IS_DEVELOPMENT=true --servedir=./public --watch"
   },
   "dependencies": {
+    "message-port-rpc": "^2.0.0",
     "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "react-dom": "^19.2.3",
+    "respondable-event": "^0.1.1",
+    "valibot": "^1.2.0"
   },
   "devDependencies": {
     "@tsconfig/strictest": "^2.0.8",
