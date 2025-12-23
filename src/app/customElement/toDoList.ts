@@ -3,7 +3,7 @@ import { RespondableEvent } from 'respondable-event';
 import { safeParse } from 'valibot';
 import { advertisementSchema } from './advertisementSchema';
 
-class ProductList extends HTMLElement {
+class ToDoList extends HTMLElement {
   constructor() {
     super();
 
@@ -45,4 +45,4 @@ class ProductList extends HTMLElement {
   }
 }
 
-customElements.define('product-list', ProductList);
+customElements.define('to-do-list', ToDoList);
